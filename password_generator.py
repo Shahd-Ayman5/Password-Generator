@@ -4,11 +4,11 @@ import string
 x = True
 while x :
     try :
-        length_str = input("Enter the desired length of the password, it should be between 1 and 9\n")
+        length_str = input("Enter the desired length of the password, it should be between 6 and 12\n")
         length = int(length_str)
-        if length < 1 :
+        if length < 6 :
             print("Invalid input. ")
-        elif length > 9 :
+        elif length > 12 :
             print("Invalid input. ")
         else :
             x = False
